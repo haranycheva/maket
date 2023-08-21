@@ -1,21 +1,21 @@
 {
-  "name": "parcel-project-template",
+  "name": "maket",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Zetonen.github.io/parcel-template",
+  "homepage": "https://github.com/haranycheva/maket",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /parcel-template/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zetonen/parcel-project-template.git"
+    "url": "git+https://github.com/haranycheva/maket"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Zetonen/parcel-template/issues"
+    "url": "https://github.com/haranycheva/maket/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
