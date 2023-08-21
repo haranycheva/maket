@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haranycheva/maket"
+    "url": "git+https://github.com/haranycheva/maket.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/haranycheva/maket/issues"
+    "url": "https://github.com/haranycheva/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
