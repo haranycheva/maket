@@ -1,0 +1,22 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-gigle" viewBox="0 0 225 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M0 0v32l6.4-6.398v-19.203l-6.4-6.398z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M0 32h32.001l-6.4-6.398h-19.201l-6.4 6.398z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M0 0l6.4 6.398h25.601v-6.398l-32.001 0z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M25.601 19.199v6.402l6.4 6.398v-19.199l-6.4 6.398z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M12.801 12.801v6.398h12.8l6.4-6.398h-19.2z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M38.404 0v32h32v-6.4h-25.6v-25.6h-6.4z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M89.606 0l-0 6.398 0 19.203v6.398h6.4v-6.398l-0-19.203 0-6.398h-6.4z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M76.806 25.602l-0 6.398h32.002v-6.398h-32.001z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M76.806 0l-0 6.398h32.002v-6.398h-32.002z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M115.21 0v32l6.4-6.398v-19.203l-6.4-6.398z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M115.21 32h32.001l-6.4-6.398h-19.201l-6.4 6.398z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M115.21 0l6.4 6.398h25.601v-6.398l-32.001 0z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M140.811 19.199v6.402l6.4 6.398v-19.199l-6.4 6.398z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M128.011 12.801v6.398h12.8l6.4-6.398h-19.2z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M153.613 0v32h32v-6.4h-25.6v-25.6h-6.4z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M192.015 0v32h32v-6.4h-25.6v-6.4h19.2v-6.4h-19.2v-6.4h25.6v-6.4h-32z"></path>
+</symbol>
+</defs>
+</svg>

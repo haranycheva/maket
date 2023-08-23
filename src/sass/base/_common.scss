@@ -1,0 +1,19 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0c0c0c;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.title {
+  color: $primary-text-color;
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+}
+
+.description {
+}

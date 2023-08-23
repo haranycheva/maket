@@ -1,2 +1,9 @@
-@import './common';
-@import './example';
+@import "./base/reset";
+
+@import "./utils/variebles";
+
+@import "./base/common";
+
+@import "./components/header";
+@import "./partials/hero";
+@import "./partials/about-proj";

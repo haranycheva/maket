@@ -1,0 +1,50 @@
+.header {
+  padding-top: 30px;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 315px;
+  }
+
+  &__logo {
+    width: 210px;
+    height: 30px;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 20px;
+  }
+  
+  &__link {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+    color: $primary-text-color;
+  }
+
+  &__btn {
+    width: 244px;
+    height: 44px;
+
+    border:  transparent;
+
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+
+    color: $primary-text-color;
+
+    background-color: #EB2828;
+  }
+}
