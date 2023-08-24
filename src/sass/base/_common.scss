@@ -1,5 +1,7 @@
 body {
   font-family: 'Inter', sans-serif;
+  letter-spacing: -0.4px;
+
   background-color: #0c0c0c;
 }
 
@@ -12,7 +14,6 @@ body {
   color: $primary-text-color;
   font-size: 64px;
   font-weight: 700;
-  letter-spacing: -0.4px;
   & span {
     color: $accent-color;
   }
@@ -25,7 +26,6 @@ body {
 
   font-size: 24px;
   font-weight: 700;
-  letter-spacing: -0.4px;
   text-transform: uppercase;
 
   background: linear-gradient(
