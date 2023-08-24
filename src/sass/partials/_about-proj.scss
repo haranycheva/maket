@@ -1,5 +1,10 @@
 .about-proj {
   &__container {
+    padding-top: 210px;
+
+    display: flex;
+    align-items: end;
+    gap: 221px;
   }
 
   &__text-wrap {
@@ -9,29 +14,76 @@
   }
 
   &__title {
+    margin-bottom: 70px;
   }
 
   &__text-container {
+    display: flex;
+    gap: 40px;
   }
 
   &__text {
+    width: 300px;
+
+    color: $side-text-color;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+
+    & span {
+      font-weight: 700;
+    }
   }
 
-  &__quote-wrap {
+  &__citation-wrap {
+    padding-right: 50px;
+    padding-bottom: 20px;
+    border-right: 5px solid;
+    border-image: linear-gradient(
+      228.12deg,
+      rgba(254, 163, 57, 0.8) 3.37%,
+      rgba(235, 40, 40, 0.8) 24.28%,
+      rgba(245, 50, 97, 0.8) 45.2%,
+      rgba(245, 45, 237, 0.8) 66.12%
+    ) 1;
   }
 
-  &__quote {
+  &__citation {
+    width: 556px;
+
+    color: $side-text-color;
+    text-align: right;
+    font-size: 34px;
+    font-style: italic;
+    font-weight: 300;
+    letter-spacing: -0.4px;
   }
 }
 
 .creator-inf {
+  margin-top: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 30px;
+
   &__data {
+    text-align: right;
   }
 
   &__name {
+    margin-bottom: 2px;
+
+    color: $primary-text-color;
+    font-size: 20px;
+    font-weight: 700;
   }
 
   &__status {
+    color: #aaabbc;
+    font-size: 14px;
+    font-weight: 400;
   }
 
   &__thumb {
