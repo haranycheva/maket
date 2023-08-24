@@ -1,0 +1,68 @@
+.advantages {
+  padding-top: 350px;
+  &__container {
+    text-align: center;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__invitation {
+    width: 787px;
+    margin: 0 auto;
+
+    font-size: 20px;
+    font-weight: 400;
+    color: $side-text-color;
+  }
+
+  &__list {
+    margin: 100px 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+    text-align: left;
+  }
+
+  &__item {
+    width: 400px;
+    height: 320px;
+    padding: 50px 40px 0 40px;
+
+    border: 5px solid rgba(235, 40, 40, 0.3);
+    background-color: rgba(235, 40, 40, 0.02);
+    box-shadow: 0px 0px 80px 0px rgba(254, 163, 57, 0.1) inset;
+    backdrop-filter: blur(4px);
+  }
+
+  &__picture {
+    margin-bottom: 30px;
+  }
+
+  &__subtitle {
+    font-size: 20px;
+
+    margin-bottom: 25px;
+  }
+
+  &__possibilities {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  &__svg {
+    width: 85px;
+    height: 42px;
+  }
+
+  &__text {
+    color: rgba(255, 255, 255, 0.15);
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+  }
+}
