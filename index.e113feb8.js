@@ -1,0 +1,2 @@
+const e={numbList:document.querySelector("#numb-list-js"),numbers:document.querySelectorAll(".number-js")};function n(e){gsap.to(e,{duration:1.5,innerHTML:e.dataset.max,roundProps:"innerHTML"})}const r=new IntersectionObserver(((r,s)=>{r.forEach((r=>{if(r.isIntersecting&&function(){for(const r of e.numbers)n(r)}(),!r.isIntersecting)for(const n of e.numbers)n.innerHTML="0"}))}));new Swiper(".swiper",{slidesPerView:"auto",spaceBetween:50});r.observe(e.numbList),console.dir(r);
+//# sourceMappingURL=index.e113feb8.js.map
