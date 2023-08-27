@@ -20,7 +20,7 @@
     gap: 20px;
 
     padding-top: 100px;
-    &.active-question{
+    &.active-question-js{
       padding-top: 43px;
     }
   }
@@ -48,7 +48,7 @@
 
       background-image: url('../img/svg/pointer.svg');
     }
-    &.active::before{
+    &.active-js::before{
       transform: rotate(180deg);
     }
   }
@@ -62,7 +62,7 @@
 
     transform: translateY(100%);
     transition: 300ms;
-    &.visible {
+    &.visible-js{
       display: block;
       transform: translateY(0);
     }
