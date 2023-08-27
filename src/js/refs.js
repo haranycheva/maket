@@ -1,0 +1,4 @@
+export const refs = {
+  numbList: document.querySelector('#numb-list-js'),
+  numbers: document.querySelectorAll('.number-js'),
+};

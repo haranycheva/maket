@@ -2,6 +2,7 @@ body {
   font-family: 'Inter', sans-serif;
   letter-spacing: -0.4px;
   font-weight: 700;
+  line-height: normal;
   color: $primary-text-color;
 
   background-color: #0c0c0c;
@@ -36,4 +37,25 @@ body {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.call{
+  margin: 0 auto;
+
+  font-size: 20px;
+  font-weight: 400;
+  color: $side-text-color;
+}
+
+.columns-wrapper{
+  display: flex;
+  gap: 40px;
+}
+
+.column {
+  width: 300px;
+
+  color: $side-text-color;
+  font-size: 20px;
+  font-weight: 400;
 }
