@@ -11,15 +11,8 @@ export function questionClick(e) {
   target.classList.toggle('active-js');
   target.nextElementSibling.classList.toggle('visible-js');
   const ul = target.closest('ul');
-  if (
-    refs.questions.some(e => {
-      return e.classList.contains('active-js');
-    })
-  ) {
-    ul.classList.contains('active-question-js')
-      ? ''
-      : ul.classList.add('active-question-js');
-  } else {
-    ul.classList.remove('active-question-js');
-  }
+
+  target.classList.contains('active-js')
+    ? ul.classList.add('active-question-js')
+    : ul.classList.remove('active-question-js');
 }
