@@ -3,7 +3,7 @@ import { refs } from './refs.js';
 export function questionClick(e) {
   const target = e.currentTarget;
   refs.questions.forEach(e => {
-    if (e.classList.contains('active-js')) {
+    if (e.classList.contains('active-js') && !target.classList.contains('active-js')) {
       e.classList.remove('active-js');
       e.nextElementSibling.classList.remove('visible-js');
     }
