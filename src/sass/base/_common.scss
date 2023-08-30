@@ -39,7 +39,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.call{
+.call {
   margin: 0 auto;
 
   font-size: 20px;
@@ -47,7 +47,7 @@ body {
   color: $side-text-color;
 }
 
-.columns-wrapper{
+.columns-wrapper {
   display: flex;
   gap: 40px;
 }
@@ -58,4 +58,25 @@ body {
   color: $side-text-color;
   font-size: 20px;
   font-weight: 400;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #424242;
+
+  color: #424242;
+  font-size: 16px;
+  font-weight: 400;
+
+  background-color: transparent;
+  &::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    line-height: normal;
+    color: #424242;
+  }
 }

@@ -18,6 +18,10 @@
   }
 
   &__citation-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    
     padding-right: 50px;
     padding-bottom: 20px;
     border-right: 5px solid;
@@ -44,6 +48,7 @@
 }
 
 .creator-inf {
+  width: 263px;
   margin-top: 40px;
 
   display: flex;

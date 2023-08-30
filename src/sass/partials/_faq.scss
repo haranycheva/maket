@@ -6,9 +6,6 @@
     gap: 112px;
   }
 
-  &__description {
-  }
-
   &__title {
     width: 663px;
     margin-bottom: 70px;
@@ -46,7 +43,7 @@
       top: 50%;
       left: -36px;
 
-      background-image: url('../img/svg/pointer.svg');
+      background-image: url('../img/svg/pointer.svg#pointer');
     }
     &.active-js::before{
       transform: rotate(180deg);
