@@ -1,0 +1,48 @@
+.footer {
+  padding: 50px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__list {
+    display: flex;
+    gap: 15px;
+  }
+
+  &__item {
+    &:first-child  .footer__link{
+      background-color: #08C;
+      &::before{
+        background-image: url("../img/svg/small-tg.svg#small-tg");
+      }
+    }
+    &:last-child .footer__link{
+      background-color: #BF4500;
+      &::before{
+        background-image: url("../img/svg/mail.svg#mail");
+      }
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 46px;
+    &::before{
+      content: "";
+      height: 16px;
+      width: 21px;
+
+      position: absolute;
+      top: 15px;
+      right: 15px;
+
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+}
