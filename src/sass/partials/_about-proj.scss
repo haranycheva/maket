@@ -1,7 +1,11 @@
 .about-proj {
-  &__container {
-    padding-top: 210px;
+  padding-top: 220px;
+  padding-bottom: 380px;
 
+  background-image: url("../img/backgrounds/about-bg.png");
+  background-position: bottom -120px left 34px;
+  background-repeat: no-repeat;
+  &__container {
     display: flex;
     align-items: end;
     gap: 221px;

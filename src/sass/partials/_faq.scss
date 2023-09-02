@@ -1,5 +1,10 @@
 .faq {
-  padding-top: 350px;
+  padding-top: 134px;
+  padding-bottom: 231px;
+
+  background-image: url("../img/backgrounds/faq-bg.png");
+  background-position: top -168px center;
+  background-repeat: no-repeat;
 
   &__container {
     display: flex;

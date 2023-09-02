@@ -1,5 +1,8 @@
 .hero {
-  padding-top: 124px;
+  padding-top: 198px;
+  background-image: url("../img/backgrounds/hero-bg.png");
+  background-position: top 0 center;
+  background-repeat: no-repeat;
 
   &__container {
     display: flex;

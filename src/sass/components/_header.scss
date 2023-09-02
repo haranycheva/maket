@@ -1,6 +1,15 @@
 .header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  z-index: 2;
+  transform: translateX(-50%);
+
+  width: 100%;
+
   padding-top: 30px;
 
+  backdrop-filter: blur(10px);
   &__container {
     display: flex;
     align-items: center;
@@ -21,6 +30,7 @@
 
   &__list {
     display: flex;
+    align-items: center;
     gap: 20px;
   }
   

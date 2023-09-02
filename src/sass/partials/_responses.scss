@@ -1,14 +1,18 @@
 .responses {
-  padding-top: 350px;
   position: relative;
+  padding-top: 350px;
+  padding-bottom: 216px;
 
+  background-image: url("../img/backgrounds/responses-bg.png");
+  background-position: top -100px center;
+  background-repeat: no-repeat;
   &::after {
     content: '';
     width: 100%;
-    height: 321px;
+    height: 329px;
 
     position: absolute;
-    bottom: -5px;
+    bottom: 215px;
     left: 0;
     z-index: 2;
 
