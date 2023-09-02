@@ -54,3 +54,16 @@
     background: #2361a4;
   }
 }
+
+.err-js{
+  border: 1px solid $accent-color;
+  animation: shake 0.4s;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-7px); }
+  50% { transform: translateX(7px); }
+  75% { transform: translateX(-7px); }
+  100% { transform: translateX(7px); }
+}
