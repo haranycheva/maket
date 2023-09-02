@@ -14,3 +14,15 @@ refs.questions.forEach(e => {
 refs.form.addEventListener("submit", formSubmit)
 
 setTimeout(removeLoader, 5000)
+
+let inactivityTimer;
+function resetInactivityTimer() {
+    clearTimeout(inactivityTimer);
+    inactivityTimer = setTimeout(() => {
+        window.close(); 
+    }, 60000); 
+}
+resetInactivityTimer();
+document.addEventListener('mousemove', resetInactivityTimer);
+document.addEventListener('mousedown', resetInactivityTimer);
+document.addEventListener('keypress', resetInactivityTimer);
